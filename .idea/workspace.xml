@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d30d9e7b-3b84-4539-a26b-c0f57937df66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/cart/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/cart/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/cart/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/cart/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/products/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/orders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/orders/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/orders/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/orders/schemas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/auth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce.db" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce.db" afterDir="false" />
@@ -93,5 +92,15 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/cart/routes.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

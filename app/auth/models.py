@@ -19,3 +19,4 @@ class User(Base):
     hashed_password = Column(String, nullable=False)
     role = Column(Enum(UserRole), default=UserRole.user)  # Admin/User role
     cart_items = relationship("CartItem", back_populates="user", cascade="all, delete")
+    orders = relationship("Order", back_populates="user")
