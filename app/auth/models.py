@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Enum
 from app.core.database import Base
 import enum
-
+from sqlalchemy.orm import relationship
 
 # Define user roles (admin or regular user)
 class UserRole(enum.Enum):
@@ -18,3 +18,4 @@ class User(Base):
     email = Column(String, unique=True, index=True, nullable=False)  # Emails must be unique
     hashed_password = Column(String, nullable=False)
     role = Column(Enum(UserRole), default=UserRole.user)  # Admin/User role
+    cart_items = relationship("CartItem", back_populates="user", cascade="all, delete")
