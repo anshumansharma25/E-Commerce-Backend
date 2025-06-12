@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d30d9e7b-3b84-4539-a26b-c0f57937df66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/orders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/orders/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/orders/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/orders/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/reset_token/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/reset_token/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/reset_token/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/reset_token/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/email.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/auth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce.db" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
